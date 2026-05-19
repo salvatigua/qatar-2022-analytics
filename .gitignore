@@ -1,0 +1,15 @@
+# ====================================================================
+# Git Ignore Configuration for Qatar 2022 Analytics Project
+# ====================================================================
+
+# Data Source - Exclude the massive raw dataset (Local Only)
+archive/
+
+# Power BI Backup and Auto-Recovery files
+*.tmp
+*.zip
+*.pbi
+
+# OS specific files
+.DS_Store
+Thumbs.db
